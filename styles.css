@@ -1,0 +1,162 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title{
+    background-color:#ff4c68 ;
+    color: #fff;
+}
+
+h1{
+     font-family: "Montserrat-Black";
+     font-size: 3rem;
+     line-height: 1.5;
+}
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+.navbar{
+    padding:0 0 4.5 rem;
+}
+
+.navbar-brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem ;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.price-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.nav-link{
+    font-size:1.2 rem ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.download-button{
+    margin:5% 3% 5% 0%;
+}
+
+.title-image{
+    width:50%;
+    transform: rotate(30deg);
+    position: absolute;
+    right:35%;
+}
+
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding:5%;
+}
+
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    color: #afafaf;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 2rem;
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    line-height: ;
+}
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 100%;
+    margin:20px;
+
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.press-logo{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+
+#pricing{
+    padding: 8%;
+    text-align: center;
+}
+
+.pricing-column{
+    padding:3%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3.5 rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.social-icon{
+    margin:  20px 15px;
+}
+#footer{
+    text-align: center;
+    padding: 15px 10px;
+}
